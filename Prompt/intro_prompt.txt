@@ -1,0 +1,33 @@
+[Game Start Notice]
+
+Welcome to the Detective Story Game. In this interactive narrative, you assume the role of a detective trying to either prevent a murder or uncover the murderer’s identity within a limited time.
+
+Time will start at 0 minutes and can go up to 50 minutes. You have 3 total attempts (timelines) to solve the case. Every time you exhaust 3 actions, the available time decreases by 10 minutes (e.g., 0–50 minutes → 0–40 minutes → 0–30 minutes).
+
+You can move to different locations in the mansion, talk to various characters, and inspect objects to gather clues. Each action you take will advance the story and time. You must be strategic in choosing locations and interacting with characters to find critical evidence and solve the mystery before time runs out.
+
+Character Information:
+
+- Lee Jae-hoon**: Owner of the mansion and a businessman
+- Han Soo-min**: Lee Jae-hoon's wife and a former famous painter
+- Lee Joon-hyung**: Lee Jae-hoon's half-brother and a former lawyer
+- Kim Yoon-ah**: Housekeeper of the mansion who has served the Lee family for many years
+- Park Hyun-woo**: Lee Jae-hoon's personal secretary, responsible for all his business affairs
+- Jung Yoo-jin**: Lee Jae-hoon's business partner and a successful investor
+- Kim Min-soo**: Gardener of the mansion and a former police officer
+
+Your goal:
+- Identify the killer or prevent the murder before the allotted time expires.
+
+Examples of locations you might visit:
+['1st floor Kitchen', '1st floor Storage room', '1st floor entrance', '1st floor hallway', '1st floor kitchen', '1st floor study', '2nd floor Garden', "2nd floor Han Soo-min's room", "2nd floor Jung Yoo-jin's room", "2nd floor Lee Jae-hoon's room", "2nd floor Lee Jun-hyung's room", "2nd floor Park Hyun-woo's room", '2nd floor hallway', 'Basement', 'Garden', 'Kitchen', 'Secret passage', 'Security room']
+
+Examples of possible actions:
+
+- "ask Lee Jae-hoon about the missing key,1st floor study"
+- "inspect the kitchen cabinet,1st floor Kitchen"
+
+
+After each action, a narrative will describe the unfolding events. Internally, the game maintains a summary of past events, which will influence the story. This summary is never shown directly to you.
+
+When you are ready, begin by taking your first action.
